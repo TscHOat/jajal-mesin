@@ -9,4 +9,5 @@ class MesinAbsensi extends Model
 {
     use HasFactory;
     protected $table = 'mesin_absensi';
+    protected $fillable = ['sn', 'name', 'last_sync'];
 }
